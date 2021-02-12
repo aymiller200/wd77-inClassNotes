@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+        Head holds metadata
+        Info we don't see
+          -links, viewport info, doc title, etc.
+     -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <header>
+        <!-- 
+            -Header can be used for introductory content or a set of navigational links
+         -->
+        <h1>Music Blog</h1>
+
+        <nav>
+            <ul>
+                <!-- emmet = li*4 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+                <!-- href stands for hyperlink reference -->
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <!-- 
+            The <section> teg defines a section in a doc and has a default value of a block display
+         -->
+        <h2>Welcome</h2>
+        <main>
+            <!-- 
+                 -Main specifies main content
+                 -There can only be one
+                 -Cannot be a descendant (child) of:
+                    -header
+                    -nav
+                    -article
+                    -aside
+                    -footer
+              -->
+
+            <article>
+                <!-- <article> tag specifies independent, self-contained content. -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus harum ex dolore
+                    repellat itaque fugit
+                    minima doloremque laborum blanditiis? Blanditiis voluptas sint quasi aut molestiae. Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit.
+                    Totam excepturi nisi fuga eveniet rerum voluptas, tempore voluptate sequi consequuntur atque eum,
+                    assumenda quasi ab exercitationem placeat dignissimos eos ullam et?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus harum ex dolore
+                    repellat itaque fugit
+                    minima doloremque laborum blanditiis? Blanditiis voluptas sint quasi aut molestiae. Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit.
+                    Totam excepturi nisi fuga eveniet rerum voluptas, tempore voluptate sequi consequuntur atque eum,
+                    assumenda quasi ab exercitationem placeat dignissimos eos ullam et?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus harum ex dolore
+                    repellat itaque fugit
+                    minima doloremque laborum blanditiis? Blanditiis voluptas sint quasi aut molestiae. Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit.
+                    Totam excepturi nisi fuga eveniet rerum voluptas, tempore voluptate sequi consequuntur atque eum,
+                    assumenda quasi ab exercitationem placeat dignissimos eos ullam et?</p>
+                <!-- copy = shift + alt + down arrow (or up arrow) -->
+            </article>
+
+            <aside>
+                <!-- 
+                    <aside> tag defines some content aside from the content it is placed in or indirectly related
+                        to the surrounding content
+                 -->
+                <h2>Favorite Albums</h2>
+                <a href="HTMLlesson/assets/BrokenBells_Amoeba.jpg" target="_blank" rel="noopener noreferrer"><img
+                        src="HTMLlesson/assets/BrokenBells_Amoeba.jpg" alt="Broken Bells - Amoeba"></a>
+                <a href="HTMLlesson/assets/inYourHonor.jpg" target="_blank" rel="noopener noreferrer"><img
+                        src="HTMLlesson/assets/inYourHonor.jpg" alt="In your honor - Foo Fighters"></a>
+                <a href="HTMLlesson/assets/PinkFloyd.jpg" target="_blank" rel="noopener noreferrer"><img
+                        src="HTMLlesson/assets/PinkFloyd.jpg" alt="Division bell - PinkFloyd"></a>
+                <a href="HTMLlesson/assets/TVotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img
+                        src="HTMLlesson/assets/TVotR_seeds.jpg" alt="TVotR - Seeds"></a>
+            </aside>
+        </main>
+    </section>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores velit est sint atque aliquid ut minus
+            quaerat dolore deserunt voluptas sed quibusdam voluptatem nihil voluptates numquam quo, dolorem sequi
+            pariatur. &copy; 2021</p>
+    </footer>
+
+</body>
+
+</html>
